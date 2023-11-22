@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#Container{
+    position: relative;
+}
+
+#SideBar{
+    background-color: rgb(230, 230, 230);
+    position: fixed;
+    width: 25%;
+    top: 0%;
+    height: 100%;
+    left: 0%; 
+}
+
+
+#UpperBar{
+    height: 20%;
+    position: absolute;
+    width: 100%;
+
+}
+
+#Search{}
