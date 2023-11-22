@@ -1,26 +1,495 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: white;
 }
 
-#Container{
-    position: relative;
-}
-
-#SideBar{
-    background-color: rgb(230, 230, 230);
+#SideBarLeft{
+    background-color: white;
+    border-style: solid;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-right-color: gray;
+    border-right-width: 1px;
     position: fixed;
-    width: 25%;
+    width: 15%;
     top: 0%;
     height: 100%;
     left: 0%; 
 }
 
-
-#UpperBar{
-    height: 20%;
+#SideBarRight{
     position: absolute;
-    width: 100%;
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    top: 3%;
+    left: 65%;
+}
+
+#MiddleBar{
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 150%;
+    left: 30%;
+    top: 12%;
 
 }
 
-#Search{}
+
+#Upperbar{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    height: 20%;
+}
+
+#instagramLogo{
+    position: absolute;
+    left: 7%;
+    top: 3%;
+    max-width: 30%;
+
+}
+
+#HomeIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 13%;
+}
+
+#SearchLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 17%;
+}
+
+#CompassLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 21%;
+}
+
+#VideoReelsLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 25%;
+}
+
+#NavigationLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 29%;
+    transform: scaleX(-1);
+}
+
+#HeartLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 33%;
+    transform: scaleX(-1);
+}
+
+#AddBoxLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 37%;
+    transform: scaleX(-1);
+}
+
+#CatCircleIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 41%;
+}
+
+#ThreadsIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 90%;
+}
+
+#ConfigLineIcon{
+    position: absolute;
+    height: 2%;
+    max-width: 100%;
+    left: 8%;
+    top: 94%;
+}
+
+
+
+
+
+#HomePage{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 13.3%;
+}
+
+#SearchLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 17.3%;
+}
+
+#CompassLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 21.3%;
+}
+
+#VideoReelsLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 25.3%;
+}
+
+#NavigationLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 29.3%;
+}
+
+#HeartLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 33.3%;
+}
+
+#AddBoxLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 37.3%;
+}
+
+#CatCircle{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 41.3%;
+}
+
+#Threads{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 90.3%;
+}
+
+#ConfigLine{
+    position: absolute;
+    font-size: larger;
+    left: 20%;
+    top: 94.3%;
+}
+
+
+
+
+
+#Person1Icon{
+    position: absolute;
+    height: 25%;
+    max-width: 100%;
+    left: 25%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+#Person2Icon{
+    position: absolute;
+    height: 25%;
+    max-width: 100%;
+    left: 29%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+#Person3Icon{
+    position: absolute;
+    height: 25%;
+    max-width: 100%;
+    left: 33%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+#Person4Icon{
+    position: absolute;
+    height: 25%;
+    max-width: 100%;
+    left: 37%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+#Person5Icon{
+    position: absolute;
+    height: 25%;
+    max-width: 100%;
+    left: 41%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+#Name1{
+    position: absolute;
+    font-size: small;
+    left: 25.5%;
+    top: 40%;
+}
+
+#Name2{
+    position: absolute;
+    font-size: small;
+    left: 29.5%;
+    top: 40%;
+}
+
+#Name3{
+    position: absolute;
+    font-size: small;
+    left: 33.5%;
+    top: 40%;
+}
+
+#Name4{
+    position: absolute;
+    font-size: small;
+    left: 37.5%;
+    top: 40%;
+}
+
+#Name5{
+    position: absolute;
+    font-size: small;
+    left: 41.5%;
+    top: 40%;
+}
+
+
+#MySelfIcon{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 5%;
+}
+
+#SujFriend1{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 25%;
+    border-radius: 100%;
+}
+
+#SujFriend2{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 37%;
+    border-radius: 100%;
+}
+
+#SujFriend3{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 49%;
+    border-radius: 100%;
+}
+
+#SujFriend4{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 61%;
+    border-radius: 100%;
+}
+
+#SujFriend5{
+    position: absolute;
+    height: 10%;
+    max-width: 100%;
+    left: 10%;
+    top: 73%;
+    border-radius: 100%;
+}
+
+
+#SujFriendName1{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 27%;
+}
+
+#SujFriendName2{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 39%;
+}
+
+#SujFriendName3{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 51%;
+}
+
+#SujFriendName4{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 63%;
+}
+
+#SujFriendName5{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 75%;
+}
+
+#MyName{
+    position: absolute;
+    font-size: medium;
+    left: 23%;
+    top: 7%;
+}
+
+#Suggestions{
+    position: absolute;
+    font-size: medium;
+    left: 11%;
+    top: 18%;
+    color:darkgray;
+}
+
+#Follow1{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 27%;
+    color: rgb(97, 170, 194);
+}
+
+#Follow2{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 39%;
+    color: rgb(97, 170, 194);
+}
+
+#Follow3{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 51%;
+    color: rgb(97, 170, 194);
+}
+
+#Follow4{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 63%;
+    color: rgb(97, 170, 194);
+}
+
+#Follow5{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 75%;
+    color: rgb(97, 170, 194);
+}
+
+#Change{
+    position: absolute;
+    font-size: medium;
+    left: 80%;
+    top: 7%;
+    color: rgb(97, 170, 194);
+}
+
+
+#Post1, #Post2, #Post3, #Post4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: auto;
+}
+
+#Ring1{
+    position: absolute;
+    max-width: 3.1%;
+    left: 24.76%;
+    top: 7.7%;
+}
+
+#Ring2{
+    position: absolute;
+    max-width: 3.1%;
+    left: 28.76%;
+    top: 7.7%;
+}
+
+#Ring3{
+    position: absolute;
+    max-width: 3.1%;
+    left: 32.76%;
+    top: 7.7%;
+}
+
+#Ring4{
+    position: absolute;
+    max-width: 3.1%;
+    left: 36.76%;
+    top: 7.7%;
+}
+
+#Ring5{
+    position: absolute;
+    max-width: 3.1%;
+    left: 40.76%;
+    top: 7.7%;
+}
